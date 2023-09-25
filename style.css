@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: 'font'; /* Replace with the desired font name */
+  src: url('font.ttf') format('truetype'); /* Use 'truetype' for .ttf font files */
+}
+
+@font-face {
+  font-family: 'font2'; /* Replace with the desired font name */
+  src: url('font2.ttf') format('truetype'); /* Use 'truetype' for .ttf font files */
+}
+
+body {
+      font-family: 'font', sans-serif; /* Use the custom font for the body */
+    }
+
+    /* Apply the custom font to specific elements */
+    h1, h2, h3 {
+      font-family: 'font2', sans-serif;
+    }
